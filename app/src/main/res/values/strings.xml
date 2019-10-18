@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TictacToe</string>
+    <string name="turn">TURN -:-</string>
+    <string name="_0">0</string>
+    <string name="p1_score">P1 SCORE:</string>
+
+    <string name="p2_score">P2 SCORE</string>
+
+    <string name="player_1">PLAYER-1</string>
+    <string name="o">o</string>
+
+    <string name="game">GAME:</string>
+
+</resources>

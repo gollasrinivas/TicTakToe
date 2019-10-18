@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff999"
+        android:padding="50dp"
+>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:layout_weight="1"
+    >
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:background="@drawable/tictac"
+                   android:layout_marginStart="15dp"
+                   android:layout_marginEnd="15dp"
+
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="50dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:orientation="horizontal"
+    android:layout_weight="1">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView android:layout_width="wrap_content"
+                      android:text="HOW MANY GAMES DO U WANT TO PLAY"
+                      android:textSize="20dp"
+                      android:textColor="#ff0000"
+                      android:id="@+id/no_of_games"
+
+                      android:layout_height="wrap_content"/>
+            <RadioGroup android:layout_width="match_parent"
+                        android:id="@+id/radio_group"
+                        android:layout_below="@+id/no_of_games"
+                        android:layout_height="wrap_content">
+
+
+                <RadioButton android:layout_width="wrap_content"
+                             android:text="1"
+                             android:id="@+id/one_game"
+                             android:textStyle="bold|italic"
+                             android:textSize="20dp"
+                             android:textColor="#000"
+                             android:layout_height="wrap_content"/>
+                <RadioButton android:layout_width="wrap_content"
+                             android:text="2"
+                             android:textColor="#000"
+                             android:id="@+id/two_games"
+                             android:textStyle="bold|italic"
+                             android:textSize="20dp"
+                             android:layout_height="wrap_content"/>
+                <RadioButton android:layout_width="wrap_content"
+                             android:text="3"
+                             android:textColor="#000"
+                             android:id="@+id/three_games"
+                             android:textStyle="bold|italic"
+                             android:textSize="20dp"
+                             android:layout_height="wrap_content"/>
+                <RadioButton android:layout_width="wrap_content"
+                             android:text="4"
+                             android:id="@+id/four_games"
+                             android:textColor="#000"
+                             android:textStyle="bold|italic"
+                             android:textSize="20dp"
+                             android:layout_height="wrap_content"/>
+                <RadioButton android:layout_width="wrap_content"
+                             android:text="5"
+                             android:textColor="#000"
+                             android:id="@+id/five_games"
+                             android:textStyle="bold|italic"
+                             android:textSize="20dp"
+                             android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                  android:orientation="horizontal"
+    android:layout_weight="1">
+<Button android:layout_width="250dp" android:layout_height="wrap_content"
+android:layout_gravity="center_vertical"
+        android:textStyle="italic|bold"
+        android:textSize="50dp"
+        android:text="READY??"
+        android:id="@+id/ready_btn"
+        android:onClick="btnClick"
+        android:textColor="#173FA5"
+        android:background="@drawable/roundbox"
+android:layout_marginStart="3dp"/>
+    </LinearLayout>
+</LinearLayout>
